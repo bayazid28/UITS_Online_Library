@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b3d1ff"
+    android:orientation="vertical"
+    tools:context=".LoginScreen">
+
+    <ImageView
+        android:layout_width="248dp"
+        android:layout_height="158dp"
+        android:layout_margin="40dp"
+        android:layout_gravity="center"
+        android:src="@drawable/uitslogo"
+        />
+    <Button
+        android:textSize="22sp"
+        android:backgroundTint="#4d94ff"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="@string/button_text"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dip"
+        />
+
+    <EditText
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:layout_marginTop="30dip"
+        android:textSize="20sp"
+        android:backgroundTint="#00394d"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="@string/button_text_login"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+     <TextView
+         android:layout_marginTop="10dip"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/button_text_forget"
+         android:layout_marginLeft="100dp"
+         android:textSize="25sp"
+
+         />
+    <TextView
+        android:layout_marginTop="10dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_text_dont"
+        android:layout_marginLeft="30dp"
+        android:textSize="25sp"
+
+        />
+
+
+
+</LinearLayout>
