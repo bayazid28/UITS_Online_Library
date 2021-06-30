@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#b3d1ff"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="248dp"
+        android:layout_height="158dp"
+        android:layout_margin="40dp"
+        android:layout_gravity="center"
+        android:src="@drawable/lgo"
+        android:contentDescription="@string/app_name" />
+    <Button
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:backgroundTint="#b3d1ff"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="@string/button_text"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+    <Button
+        android:id="@+id/admin"
+        android:textSize="20sp"
+        android:backgroundTint="#7575a3"
+        android:layout_marginTop="50dip"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="@string/button_text_admin"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+    <Button
+        android:id="@+id/user"
+        android:textSize="20sp"
+        android:backgroundTint="#00394d"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="@string/button_text_student"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="12dp"
+        />
+    <Button
+        android:layout_marginTop="12dp"
+        android:id="@+id/button"
+        android:textSize="20sp"
+        android:backgroundTint="#39ac73"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="@string/button_text_s_reg"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+</LinearLayout>

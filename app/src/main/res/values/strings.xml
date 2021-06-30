@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Uits Online Library</string>
+    <string name="button_text">Uits Online Library</string>
+    <string name="button_text_admin">Admin Login</string>
+    <string name="button_text_student">Student Login</string>
+    <string name="button_text_s_reg">Student Registration</string>
+
+</resources>

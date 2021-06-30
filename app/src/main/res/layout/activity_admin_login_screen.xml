@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b3d1ff"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".AdminLoginScreen">
+
+    <ImageView
+        android:layout_marginTop="13dp"
+        android:layout_width="203dp"
+        android:layout_height="174dp"
+        android:src="@drawable/lgo"/>
+
+    <Button
+
+        android:textColor="@color/black"
+        android:backgroundTint="#b3d1ff"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Admin Login" />
+
+    <EditText
+        android:hint="Email"
+        android:layout_marginTop="19dp"
+        android:textSize="25sp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginRight="23dp"
+        android:id="@+id/editTextTextEmailAddress4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:hint="password"
+        android:layout_marginTop="13dp"
+        android:textSize="25sp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginRight="23dp"
+        android:id="@+id/editTextTextPassword4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+
+        android:layout_marginTop="17dp"
+        android:textSize="25sp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginRight="55dp"
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LogIn" />
+
+</LinearLayout>
