@@ -35,6 +35,7 @@ public class LoginScreen extends AppCompatActivity {
 
                 String email = editTextEmail.getText().toString().trim();
                 String password = editTextPassword.getText().toString();
+
                 mAuth.signInWithEmailAndPassword(email,password)
                         .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                             @Override

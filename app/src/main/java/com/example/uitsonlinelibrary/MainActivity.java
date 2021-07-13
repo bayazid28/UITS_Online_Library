@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         button = (Button) findViewById(R.id.button);
         user = (Button) findViewById(R.id.user);
-        admin = (Button) findViewById(R.id.admin);
+        admin = findViewById(R.id.admin);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -50,8 +50,6 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity.this, AdminLoginScreen.class);
                 startActivity(intent);
             }
-
-
         });
 
     }
