@@ -4,17 +4,177 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#b3d1ff"
     android:orientation="vertical"
-    android:gravity="center"
+    android:background=" #80b3ff"
     tools:context=".UserHomeScreen">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Welcome to UITS Online Library"
-        android:textSize="29sp"
+    <LinearLayout
 
-        />
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:background="#b3d1ff"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_marginTop="13dp"
+            android:layout_width="124dp"
+            android:layout_height="106dp"
+
+            android:src="@drawable/lgo" />
+
+        <Button
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#b3d1ff"
+
+            android:clickable="false"
+            android:text="Account"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/userlogoutbtn"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#b3d1ff"
+            android:text="LogOut"
+            android:textColor="@color/black"
+            android:textSize="19sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:textSize="20sp"
+            android:drawableTop="@drawable/book_icon"
+            android:backgroundTint="#9fdfbf"
+            android:textColor="@color/black"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/userbooklistbtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Book List" />
+
+        <Button
+            android:textSize="20sp"
+            android:drawableTop="@drawable/category_icon"
+            android:backgroundTint="#9fdfbf"
+            android:textColor="@color/black"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/myborrowbtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="My Borrow" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:textSize="20sp"
+            android:drawableTop="@drawable/pdf_book_icon"
+            android:backgroundTint="#9fdfbf"
+            android:textColor="@color/black"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/userpdfbookbtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="pdf books" />
+
+        <Button
+            android:textSize="20sp"
+            android:drawableTop="@drawable/question_icon"
+            android:backgroundTint="#9fdfbf"
+            android:textColor="@color/black"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/userqspaperbtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="qs paper" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:textSize="20sp"
+            android:drawableTop="@drawable/add_book_icon"
+            android:backgroundTint="#9fdfbf"
+            android:textColor="@color/black"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/userbookmarkbtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="bookmark" />
+
+        <Button
+            android:textSize="20sp"
+            android:drawableTop="@drawable/member_icon"
+            android:backgroundTint="#9fdfbf"
+            android:textColor="@color/black"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/userdiscussionbtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Discussion" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:textSize="20sp"
+            android:drawableTop="@drawable/add_pdf_icon"
+            android:backgroundTint="#9fdfbf"
+            android:textColor="@color/black"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/usercontactbtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Contact" />
+
+        <Button
+            android:textSize="20sp"
+            android:drawableTop="@drawable/notify_icon"
+            android:shadowColor="@color/black"
+            android:backgroundTint="#9fdfbf"
+            android:textColor="@color/black"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/usernoticebtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Notice" />
+
+    </LinearLayout>
 
 </LinearLayout>

@@ -4,5 +4,6 @@
     <string name="button_text_admin">Admin Login</string>
     <string name="button_text_student">Student Login</string>
     <string name="button_text_s_reg">Student Registration</string>
+    <string name="btn_text">LogIn</string>
 
 </resources>

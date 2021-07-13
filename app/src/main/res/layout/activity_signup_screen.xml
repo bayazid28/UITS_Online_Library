@@ -16,8 +16,22 @@
 
         />
 
+    <Button
+
+        android:backgroundTint="#b3d1ff"
+        android:textColor="@color/black"
+        android:textSize="21sp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginRight="23dp"
+        android:id="@+id/button5"
+        android:clickable="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Registration"
+        />
+
     <EditText
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="25dp"
         android:textSize="25sp"
         android:hint="Email"
         android:layout_marginLeft="10dp"
@@ -27,6 +41,29 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textEmailAddress" />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Password"
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Name"
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        />
 
     <EditText
         android:layout_marginTop="10dp"
@@ -40,42 +77,9 @@
         android:ems="10"
         android:inputType="number" />
 
-    <EditText
-        android:layout_marginTop="10dp"
-        android:textSize="25sp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:hint="User Name"
-        android:id="@+id/editTextTextPersonName"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        />
 
-    <EditText
-        android:layout_marginTop="10dp"
-        android:textSize="25sp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:hint="Password"
-        android:id="@+id/editTextTextPassword2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPassword" />
 
-    <EditText
-        android:hint="Confirm Password"
-        android:layout_marginTop="10dp"
-        android:textSize="25sp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:id="@+id/editTextTextPassword3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPassword" />
+
 
     <EditText
         android:hint="Mobile"

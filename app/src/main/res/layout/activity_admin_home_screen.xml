@@ -4,15 +4,180 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#b3d1ff"
     android:orientation="vertical"
-    android:gravity="center"
+    android:background="#80b3ff"
     tools:context=".AdminHomeScreen">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Welcome to Admin Dashbord"
-        android:textSize="30sp"/>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:background="#b3d1ff"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_marginTop="13dp"
+            android:layout_width="124dp"
+            android:layout_height="106dp"
+
+            android:src="@drawable/lgo" />
+
+        <Button
+            android:clickable="false"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+
+            android:backgroundTint="#b3d1ff"
+            android:text="Admin"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/logoutAdmin"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#b3d1ff"
+            android:text="LogOut"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/member_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:backgroundTint="#9fdfbf"
+            android:drawableTop="@drawable/member_icon"
+            android:text="Member List"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <Button
+            android:textSize="20sp"
+            android:drawableTop="@drawable/book_icon"
+            android:backgroundTint="#9fdfbf"
+            android:textColor="@color/black"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/book_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Book List" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:textSize="20sp"
+            android:drawableTop="@drawable/category_icon"
+            android:backgroundTint="#9fdfbf"
+            android:textColor="@color/black"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/brequest"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Borrow request" />
+
+        <Button
+            android:textSize="20sp"
+            android:drawableTop="@drawable/add_book_icon"
+            android:backgroundTint="#9fdfbf"
+            android:textColor="@color/black"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/addbookbuttons"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Add Book" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:textSize="20sp"
+            android:drawableTop="@drawable/question_icon"
+            android:backgroundTint="#9fdfbf"
+            android:textColor="@color/black"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/qspaperbtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Qs Paper" />
+
+        <Button
+            android:textSize="20sp"
+            android:drawableTop="@drawable/pdf_book_icon"
+            android:backgroundTint="#9fdfbf"
+            android:textColor="@color/black"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/pdfbook"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Pdf Book" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:textSize="20sp"
+            android:drawableTop="@drawable/add_pdf_icon"
+            android:backgroundTint="#9fdfbf"
+            android:textColor="@color/black"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/addpdfbtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Add pdf" />
+
+        <Button
+            android:textSize="20sp"
+            android:drawableTop="@drawable/notify_icon"
+            android:shadowColor="@color/black"
+            android:backgroundTint="#9fdfbf"
+            android:textColor="@color/black"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/noticebtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Notice" />
+
+    </LinearLayout>
 
 </LinearLayout>
+
+
+
+
+
+
